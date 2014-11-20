@@ -2,7 +2,7 @@ cofy-redis
 ==========
 [![Build Status](https://travis-ci.org/RocksonZeta/cofy-redis.svg?branch=master)](https://travis-ci.org/RocksonZeta/cofy-redis)
 
-cofy-redis
+[redis](https://github.com/mranney/node_redis) co version.
 
 ##Installation
 ```
@@ -40,8 +40,6 @@ redisClient.set('k2' ,"v2" , function(e){
 		cb();
 	});
 });
-
-
 ```
 
 
